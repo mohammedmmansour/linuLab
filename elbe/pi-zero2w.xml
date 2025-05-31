@@ -113,27 +113,33 @@
             <rm>/etc/udev/rules.d/70-persistent-net.rules</rm>
         </finetuning>
         <pkg-list>
-            <pkg>raspberrypi-kernel</pkg>
-            <pkg>raspi-config</pkg>
-            <pkg>libraspberrypi-bin</pkg>
-            <pkg>openssh-server</pkg>
-            <pkg>less</pkg>
-            <pkg>bash</pkg>
-            <pkg>vim</pkg>
-            <pkg>wget</pkg>
-            <pkg>ntp</pkg>
-            <pkg>fake-hwclock</pkg>
-            <pkg>git</pkg>
-            <pkg>bluez</pkg>
-            <pkg>bind9</pkg>
-            <pkg>isc-dhcp-server</pkg>
-	    <!-- AWS IoT/MQTT tools -->
-    	    <pkg>python3</pkg>
-    	    <pkg>python3-pip</pkg>
-    	    <pkg>mosquitto-clients</pkg>
-	    <!-- I2C tools & libraries for ADXL345 -->
-       	    <pkg>i2c-tools</pkg>
-            <pkg>python3-smbus</pkg>
+           <pkg>wireless-tools</pkg>
+           <pkg>iw</pkg>
+           <pkg>wpasupplicant</pkg>
+           <pkg>ifupdown</pkg>
+           <pkg>net-tools</pkg>
+           <pkg>openssh-server</pkg>
+           <pkg>less</pkg>
+           <pkg>bash</pkg>
+           <pkg>vim</pkg>
+           <pkg>wget</pkg>
+           <pkg>ntp</pkg>
+           <pkg>fake-hwclock</pkg>
+           <pkg>git</pkg>
+           <pkg>python3</pkg>
+           <pkg>python3-pip</pkg>
+           <pkg>mosquitto-clients</pkg>
+           <pkg>curl</pkg>
+           <pkg>i2c-tools</pkg>
+           <pkg>python3-smbus</pkg>
+           <pkg>python3-rpi.gpio</pkg>
+           <pkg>raspberrypi-kernel</pkg>
+           <pkg>raspi-config</pkg>
+           <pkg>libraspberrypi-bin</pkg>
+           <pkg>console-setup</pkg>
+           <pkg>bluez</pkg>
+           <pkg>bind9</pkg>
+           <pkg>isc-dhcp-server</pkg>
         </pkg-list>
     </target>
 
